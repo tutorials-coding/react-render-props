@@ -1,0 +1,28 @@
+.example__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.example__content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.example__badgecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: green;
+}
+
+.example__badge {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}

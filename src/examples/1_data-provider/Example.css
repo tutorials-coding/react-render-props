@@ -1,0 +1,9 @@
+.example__container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.example__content {
+  width: 50%;
+}

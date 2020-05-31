@@ -1,0 +1,7 @@
+.posts__container {
+  padding: 10px;
+}
+
+.post__container:not(:last-child) {
+  padding-bottom: 10px;
+}
