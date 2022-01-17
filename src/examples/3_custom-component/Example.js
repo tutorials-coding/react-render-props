@@ -22,11 +22,15 @@ export const Example = () => {
   const handleAddItemClick = () => {
     setCart([...cart, {}]);
   };
+  const handleRemoveItemClick = () => {
+    setCart(cart.slice(0, -1))
+  }
 
   return (
     <div className="example__container">
       <div className="example__content">
         <Button onClick={handleAddItemClick}>Add new item</Button>
+        <Button onClick={handleRemoveItemClick}>Remove an item</Button>
         <CartIcon
           renderBadge={() => renderBadge(cart.length)}
           onClick={handleClick}
