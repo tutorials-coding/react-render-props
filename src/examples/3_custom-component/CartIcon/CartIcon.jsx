@@ -6,7 +6,7 @@ import "./CartIcon.css";
 export const CartIcon = ({ renderBadge = () => null, onClick }) => {
   return (
     <div className="carticon__container" onClick={onClick}>
-      <div className="carticon__badgecontaiener">{renderBadge()}</div>
+      <div className="carticon__badgecontainer">{renderBadge()}</div>
       <MdShoppingCart className="carticon__icon" />
     </div>
   );
